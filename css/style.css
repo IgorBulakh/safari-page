@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body{
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+/* or 28px */
+  color: #1F1E1E;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.container{
+ max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header {
+  background-image: url(../images/backgraund.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+ 
+}
+.header-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px 0 50px;
+
+
+}
+.logo {
+}
+.logo-img {
+}
+.header-phone {
+  font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 130% */
+/* белый */
+color: #FFFFFF;
+}
+.header-phone-number {
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 20px;
+  padding: 12px 30px;
+  background: #886239;
+  border-radius: 22px;
+  /* or 21px */
+  /* белый */
+
+  color: #FFFFFF;
+}
+.menu {
+  width: 100%;
+  margin-top: 15px;
+  padding: 24px 0;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+ 
+}
+.menu-list {
+   display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.menu-item {
+}
+.menu-link {
+}
+.header-title {
+  font-family: 'PT Serif', serif;
+}
+.header-content {
+}
+.header-descript {
+}
+.header-btn {
+}
+.header-arrow {
+}
+.header-arrow-link {
+}
+.header-arrow-img {
+}
