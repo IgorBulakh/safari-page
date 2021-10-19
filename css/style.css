@@ -26,6 +26,17 @@ a{
   margin: 0 auto;
   padding: 0 10px;
 }
+.list {
+  list-style:none;
+}
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+
+  text-align: center;
+}
+
 .header {
   background-image: url(../images/backgraund.jpg);
   background-repeat: no-repeat;
@@ -172,3 +183,107 @@ border-top: none;
 
 }
 /* ================= galery-list ================ */
+/* ================= trave-info-section ================ */
+.travel-info {
+  background-image: url(../images/travel-info.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 30px 0 50px;
+
+}
+.travel-info-tite {
+  margin-bottom: 50px;
+  color: #FFFFFF;
+
+}
+
+.travel-info-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 56px 64px;
+}
+.travel-info-item {
+  
+}
+.travel-info-img {
+  margin-bottom: 14px;
+}
+.travel-info-text {
+
+font-size: 16px;
+line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+/* ================= trave-info-section ================ */
+
+/* ================= popular ================ */
+
+.popular {
+  padding: 100px 0;
+  
+}
+.container {
+}
+.container-outline {
+}
+.popular-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 40px;
+
+  /* черный */
+
+  color: #1F1E1E;
+
+}
+
+.popular-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 32px;
+}
+
+.popular-item {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+  padding: 16px 24px;
+  color: #FFFFFF;
+ 
+}
+.popular-link {
+  
+}
+.popular-title-link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  /* or 31px */
+
+  /* белый */
+
+  color: #FFFFFF;
+}
+.popular-text {
+  font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 21px */
+
+
+/* белый */
+
+color: #FFFFFF;
+}
+
+.container-outline{
+  background-color: rgb(154, 228, 197);
+  outline: 3px solid rgb(0, 183, 255);
+}
+/* ================= popular ================ */
