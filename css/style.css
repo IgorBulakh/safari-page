@@ -241,49 +241,103 @@ line-height: 21px;
 
 }
 
+
+/* ===============galery-link========== */
 .popular-list {
+
+}
+
+.popular-item {
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 32px;
-}
-
-.popular-item {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-
-  padding: 16px 24px;
-  color: #FFFFFF;
+  border-bottom: 1px solid  #C4C4C4;;
  
 }
 .popular-link {
-  
+  padding: 16px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  min-height: 256px;
+  line-height: 130%;
+
+  color: #FFFFFF;
+
 }
+.popular-link:nth-child(3),
+.popular-link:nth-child(6){
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
 .popular-title-link {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 31px;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 15px;
+  text-align: start;
   /* or 31px */
-
   /* белый */
 
   color: #FFFFFF;
 }
 .popular-text {
   font-weight: bold;
-font-size: 16px;
-line-height: 21px;
+  font-size: 16px;
+
 /* identical to box height, or 21px */
-
-
 /* белый */
+margin-top: auto;
 
 color: #FFFFFF;
 }
 
-.container-outline{
+.popular-country,
+.popular-time{
+  margin-bottom: 15px;
+  
+}
+
+/* .container-outline{
   background-color: rgb(154, 228, 197);
   outline: 3px solid rgb(0, 183, 255);
-}
+} */
 /* ================= popular ================ */
+
+/* =====================map============================= */
+.map {
+  padding: 100px 0;
+}
+
+.map-title {
+  margin-bottom: 46px;
+}
+
+.map-iframe {
+  margin-bottom: 100px;
+}
+
+/* ===================about========================= */
+
+.about {
+}
+
+.about-content {
+}
+.about-title {
+}
+
+.about-text {
+}
+.about-link {
+}
+.about-popup {
+}
+
