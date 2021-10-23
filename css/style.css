@@ -324,20 +324,89 @@ color: #FFFFFF;
   margin-bottom: 100px;
 }
 
-/* ===================about========================= */
+/* ===================about======================== */
 
 .about {
+  padding-bottom: 100px;
+
+
+  outline: 1px solid gray;
+}
+
+.abou-inner{
+  display: grid;
+  grid-template-columns: 448px 640px;
+  grid-gap: 32px;
 }
 
 .about-content {
 }
 .about-title {
+  text-align: left;
+  margin-bottom: 25px;
 }
 
 .about-text {
+  margin-bottom: 34px;
 }
 .about-link {
+  font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+
+text-decoration-line: underline;
+
+/* серый */
+color: #C4C4C4;
 }
 .about-popup {
+  background-image: url(../images/Rectangle\ 45.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* =====================slider-section=================== */
+.slider {
+
+  padding: 50px 0 100px;
+  background: #886239;
+  color: #FFFFFF;
+}
+
+.slider-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+  padding-right: 160px;
+}
+.slider-title {
+  
+}
+
+.slider-link {
+  font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+}
+.gallery__slider {
+}
+.gallery__item {
+}
+.gallery__item-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+.gallery__item-link {
+}
+.gallery__item-img {
+}
