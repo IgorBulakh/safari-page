@@ -579,21 +579,40 @@ line-height: 21px;
 .footer-block {
   display: flex;
   justify-content: space-between;
-  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+  
+  max-width: 832px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, .8);
 }
 .footer-info {
+  /* display: flex;
+  flex-direction: column; */
+  width: 225px;
 }
 .footer-title {
+  margin-bottom: 7px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
-.footer-copirait {
+.footer-copi {
+
+  margin-bottom: 3px;
+  
 }
 .footer-copirait-link {
+  text-decoration: underline;
+  
 }
 .footer-adres {
+  
 }
 .footer-tel {
+  
 }
 .footer-mail {
+ 
 }
 
 /* <!-- ================<footer></footer>============ --> */
