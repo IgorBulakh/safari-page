@@ -25,6 +25,22 @@
     .main-img{
       width: 100%;s
     }
+    .abou-inner{
+      grid-gap: 20px;
+      grid-template-columns: 1fr 2fr;
+    }
+    .gallery__item-inner{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery__item-img{
+      width: 100%;
+    }
+    .info-box{
+      padding: 50px 20px;
+    }
+    .info-item {
+    grid-template-columns: repeat(3, 1fr);
+  }
 } 
 /* ===================breackpoint-1140px=================== */
 /* ===================breackpoint-990px=================== */
@@ -35,8 +51,32 @@
   .popular-link{
 min-height: 200px;
   }
+  .booking-section {
+    padding: 50px 20px; 
+}
+.booking-input{
+    width: 100%;
+  }
 }
 /* ===================breackpoint-990px=================== */
+/* ===================breackpoint-860px=================== */
+@media screen and (max-width: 860px){
+  .footer{
+    padding: 50px 0;
+  }
+  .footer-logo{
+    margin-bottom: 40px;
+  }
+  .footer-block{
+    display: block;
+    text-align: center;
+  }
+  .footer-info{
+    margin: 0 auto 25px; 
+  }
+
+}
+/* ===================breackpoint-860px=================== */
 /* ===================breackpoint-768px=================== */
 @media screen and (max-width: 768px) {
   .header-phone span{
@@ -61,6 +101,49 @@ min-height: 200px;
 .popular-link{
   min-height: 320px;
 }
+.map{
+  padding: 50px;
+}
+
+.map-iframe{
+  height: 400px;
+}
+.about{
+  padding: 50px 0;
+}
+  .abou-inner{
+    grid-gap: 2px;
+    grid-template-columns: 1fr;
+  }
+  .about-popup{
+    min-height: 400px;
+  }
+     .slider-top {
+  
+  margin-bottom: 20px;
+  padding-right: 60px;
+}
+.slider{
+ padding-bottom: 50px;
+}
+.info-box{
+  column-count: 1;
+  padding: 24px 10px;
+}
+.info-title{
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+ .info-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+  .booking-label{
+    margin-top: -200px;
+    margin-left: 50px;
+    width: 100%;
+  }
   
 }
 /* ===================breackpoint-768x=================== */
@@ -175,8 +258,20 @@ min-height: 200px;
   text-align: center;
   /* margin-bottom: 20px; */
 }
+.gallery__item-inner{
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+    }
 
+ 
 
+   .slider-top {
+ display: block;
+ text-align: center;
+}
+  .info-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
   
 }
 /* ===================breackpoint-560px=================== */
@@ -189,6 +284,9 @@ min-height: 200px;
   .popular-item {
   grid-template-columns: repeat(1, 1fr);
 }
+.about-popup{
+    min-height: 250px;
+  }
 }
 
 /* ===================breackpoint-425px=================== */
@@ -236,7 +334,10 @@ margin-bottom: 0;
   font-size: 18px;
   font-weight: bold;
 }
-
+.booking-label{
+    margin-top: -218px;
+    
+  }
 
 }
 /* ===================breackpoint-320px=================== */
