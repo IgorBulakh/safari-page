@@ -152,10 +152,8 @@ margin-bottom: 20px;
 .main {
   padding: 100px 0;
 }
-.container {
-}
-.mein-nav {
-}
+
+
 .main-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -225,10 +223,7 @@ line-height: 21px;
   padding: 100px 0;
   
 }
-.container {
-}
-.container-outline {
-}
+
 .popular-title {
   font-weight: bold;
   font-size: 36px;
@@ -253,7 +248,7 @@ line-height: 21px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 32px;
-  border-bottom: 1px solid  #C4C4C4;;
+  border-bottom: 1px solid  #C4C4C4;
  
 }
 .popular-link {

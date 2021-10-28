@@ -1,0 +1,242 @@
+/*  breacktpoint - 320px*/
+/*  breacktpoint - 560px*/
+/*  breacktpoint - 768px*/
+
+
+.menu-btn{
+  display: none;
+}
+
+/* ===================breackpoint-1140px=================== */
+
+@media screen and (max-width: 1140px) {
+ 
+  
+  .main-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    }
+
+    .main-img{
+      width: 100%;s
+    }
+} 
+/* ===================breackpoint-1140px=================== */
+/* ===================breackpoint-990px=================== */
+@media screen and (max-width: 990px) {
+  .popular-item{
+    grid-gap: 10px;
+  }
+  .popular-link{
+min-height: 200px;
+  }
+}
+/* ===================breackpoint-990px=================== */
+/* ===================breackpoint-768px=================== */
+@media screen and (max-width: 768px) {
+  .header-phone span{
+    display: none;
+     margin-left: 0;
+  }
+
+  .travel-info-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.popular-link:nth-child(3),
+.popular-link:nth-child(6){
+  grid-column: auto;
+  grid-row: auto;
+}
+.popular-item {
+  grid-template-columns: repeat(2, 1fr);
+}
+.popular-link{
+  min-height: 320px;
+}
+  
+}
+/* ===================breackpoint-768x=================== */
+/* ===================breackpoint-560px=================== */
+@media screen and (max-width: 568px) {
+
+
+  .logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .header-top{
+    /* justify-content: center; */
+   
+  }
+  .header-phone-number{
+ 
+     margin-left: 0;
+  }
+
+  .menu{
+    border: none;
+  }
+
+  .menu-btn{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 108px;
+    right: 10px;
+}
+
+.menu-btn::before,
+.menu-btn::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 2px;
+  background: #fff;
+}
+.menu-btn::before{
+  top: 0;
+}
+.menu-btn::after{
+  bottom: 0;
+}
+
+
+.menu-btn span{
+  
+  display: block;
+
+  height: 2px;
+  background: #fff;
+  
+
+}
+
+.menu-list{
+  transform: translateY(-200%);
+  display: block;
+  padding: 10px 0;
+  background-color: #886239;
+  position: absolute;
+ left: 0;
+ right: 0;
+}
+
+.menu-list.menu-list-active{
+  transform: translateY(0%);
+  transition: all 0.5s;
+}
+
+.menu-item{
+  display: block;
+  padding: 10px;
+   text-align: center;
+   /* cursor: pointer; */
+}
+
+  .header-title{
+    font-size: 50px;
+  }
+
+  .main{
+    padding: 50px 0;
+  }
+
+  .main-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    grid-gap: 10px;
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    }
+       .travel-info-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.travel-info-item {
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+
+  
+}
+/* ===================breackpoint-560px=================== */
+/* ===================breackpoint-425px=================== */
+@media screen and (max-width: 425px){
+  .popular {
+  padding: 50px 0;
+  
+}
+  .popular-item {
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
+/* ===================breackpoint-425px=================== */
+
+/* ===================breackpoint-320px=================== */
+@media screen and (max-width: 320px) {
+  .menu{
+    /* display: none; */
+  }
+
+
+
+ .header-title{
+   font-size: 34px;
+   color: rgba(255, 255, 255, .8);
+ }
+  
+  .main-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+    grid-gap: 10px;
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    }
+    .travel-info-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+.travel-info-tite {
+  font-size: 20px;
+  font-weight: 700;
+}
+.travel-info-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.travel-info-img {
+margin-bottom: 0;
+}
+.travel-info-text{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+}
+/* ===================breackpoint-320px=================== */
