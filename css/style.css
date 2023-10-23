@@ -22,7 +22,7 @@ a{
 /* ================= header ================ */
 
 .container{
- max-width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -42,9 +42,8 @@ a{
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  
- 
 }
+
 .header-section {
   min-height: 100vh;
   display: flex;
@@ -96,7 +95,7 @@ color: #FFFFFF;
  
 }
 .menu-list {
-   display: flex;
+  display: flex;
   justify-content: space-evenly;
   font-size: 16px;
   color: #FFFFFF;
@@ -121,8 +120,9 @@ color: #FFFFFF;
 .header-descript {
   max-width: 440px;
   font-weight: bold;
-font-size: 20px;
-margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
 }
 .header-btn {
   display: inline-block;
